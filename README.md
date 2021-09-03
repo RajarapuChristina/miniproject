@@ -1,13 +1,13 @@
 Emotion-Based-music-player
 It's music player with chrome as front-End which has the capablity to detect emotions from the face of user with the help of machine learning algorithm.  
-Credits of this project goes to @yashshah2609 and @PartheshSoni.
+Credits of this project goes to @RajarapuChristina.
 Description :
 
       In this project we have used libraries like OpenCV, EEL, numpy etc.
 
-      OpenCV : for capturing images from webcam as well as for processing purpose. made implemantation of fisherface 			 methodology of opencv for classification.
+      OpenCV : for capturing images from webcam as well as for processing purpose. made implemantation of fisherface methodology of opencv for classification.
 
-      FisherFace : to train the madel and store it in a model-file(.xml). While using player it uses for prediction 				 for emotion.
+      FisherFace : to train the madel and store it in a model-file(.xml). While using player it uses for prediction for emotion.
       
       **--> We have used haarcascade trained model provided by OpenCV for face segmentation from the captured image.
 
@@ -28,7 +28,7 @@ The Flow goes like :: run the capture.py file it will trigger html file which wi
 
 HOW TO RUN ?
 
---> download whole project in single folder as uploaded. If U r familiar with jss by understanding the js model u can easly insert # 	 of songs bcz we have make the whole javascript code dynamically such that, just by inserting data inyo the correct dictionary in js will make the project to show and run your own choosed musics.
+--> download whole project in single folder as uploaded. If U r familiar with jss by understanding the js model u can easly insert # of songs bcz we have make the whole javascript code dynamically such that, just by inserting data inyo the correct dictionary in js will make the project to show and run your own choosed musics.
 
 --> make sure u have installed openCV, opencv contrib, eel, numpy and all it's dependancies.
 library of eel : https://drive.google.com/open?id=1LphmYEBwa-SXbTFXuxIKBAt4iQ1Z2JA8
@@ -37,5 +37,5 @@ library of eel : https://drive.google.com/open?id=1LphmYEBwa-SXbTFXuxIKBAt4iQ1Z2
 -->u can see the images on which assumption of emotion is made in the images folder.
    I advise u to train the model in your pc and then use it(I case you are using any new or updated dataset).
    
--->for any query u can mail on shahyash2609@gmail.com.
+-->for any query u can mail on christina.rajarapu@gmail.com.
 Thank You.
